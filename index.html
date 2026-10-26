@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Rayyan — Mahasiswa Pendidikan Agama Islam | Portofolio</title>
+  <meta name="description" content="Portofolio pribadi Rayyan, mahasiswa Pendidikan Agama Islam: keterampilan digital di Word, Excel, dan Canva, karya konsep bahan ajar, serta catatan persiapan menjadi pendidik." />
+  <meta name="author" content="Rayyan" />
+
+  <!-- Open Graph / media sosial -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:title" content="Rayyan — Mahasiswa Pendidikan Agama Islam" />
+  <meta property="og:description" content="Portofolio pribadi mahasiswa Pendidikan Agama Islam: keterampilan digital Word, Excel, dan Canva, serta karya konsep untuk kebutuhan pembelajaran." />
+  <meta property="og:site_name" content="Portofolio Rayyan" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#F3F0E7" />
+
+  <!-- Ikon tab: huruf awal di dalam kotak olive -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23F3F0E7'/%3E%3Crect x='6' y='6' width='52' height='52' fill='none' stroke='%23555D43' stroke-width='3'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' fill='%23292B25' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E" />
+
+  <!-- Huruf: Inter untuk teks & judul, Fraunces sebagai aksen editorial -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600&display=swap" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Penanda bahwa JavaScript aktif: animasi .reveal hanya menyembunyikan
+       konten bila skrip benar-benar berjalan, agar isi tetap terlihat bila
+       JavaScript gagal atau dimatikan. -->
+  <script>document.documentElement.classList.add("js");</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rayyan",
+    "jobTitle": "Mahasiswa Pendidikan Agama Islam",
+    "description": "Mahasiswa Pendidikan Agama Islam yang mempersiapkan diri menjadi guru, dengan keterampilan digital di Microsoft Word, Microsoft Excel, dan Canva."
+  }
+  </script>
+</head>
+<body>
+  <a class="lompat-ke-konten" href="#konten">Lompat ke konten utama</a>
+
+  <!-- ============================== KEPALA ============================== -->
+  <header class="kepala">
+    <div class="wadah kepala__dalam">
+      <a class="kepala__merek" href="#beranda">
+        <span class="kepala__inisial" data-inisial aria-hidden="true">R</span>
+        <span class="kepala__nama" data-field="nama">Rayyan</span>
+      </a>
+
+      <button class="kepala__tombol" type="button" aria-expanded="false" aria-controls="nav-utama">
+        <span class="kepala__tombol-ikon" aria-hidden="true">
+          <span></span><span></span>
+        </span>
+        <span class="kepala__tombol-teks" data-teks-menu>Buka menu</span>
+      </button>
+
+      <nav class="kepala__nav" id="nav-utama" aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#tentang">Tentang Saya</a></li>
+          <li><a href="#keterampilan">Keterampilan</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="konten">
+    <noscript>
+      <div class="wadah pesan-noscript">
+        <p>Sebagian isi portofolio ini dirender dengan JavaScript. Mohon aktifkan JavaScript untuk melihatnya selengkapnya, atau hubungi saya langsung melalui email.</p>
+      </div>
+    </noscript>
+
+    <!-- ============================== HERO ============================== -->
+    <section class="hero" id="beranda" aria-labelledby="judul-hero">
+      <div class="wadah hero__dalam">
+        <div class="hero__judul">
+          <p class="hero__indeks" aria-hidden="true">Portofolio&nbsp;&mdash;&nbsp;Pendidikan Agama Islam</p>
+          <h1 class="hero__nama" id="judul-hero" data-field="nama">Rayyan</h1>
+          <p class="hero__peran" data-field="peran">Mahasiswa Pendidikan Agama Islam</p>
+        </div>
+
+        <figure class="hero__potret">
+          <div class="potret-bingkai" data-potret>
+            <!-- Diisi oleh script.js: foto asli bila tersedia, placeholder bila belum. -->
+          </div>
+          <figcaption class="potret-keterangan" data-field="keterangan-potret">
+            Potret &mdash; foto asli menyusul. Tempatkan berkas foto Anda, lalu isi <code>profile.foto</code> di <code>script.js</code>.
+          </figcaption>
+        </figure>
+
+        <div class="hero__aksi">
+          <p class="hero__pengantar" data-field="pengantar">
+            Menyiapkan diri menjadi pendidik yang terus belajar, membimbing, dan menghadirkan pembelajaran yang bermakna.
+          </p>
+
+          <div class="hero__tautan">
+            <a class="tautan-utama" href="#portofolio">Lihat Karya <span aria-hidden="true">&rarr;</span></a>
+            <a class="tautan-tenang" href="#tentang">Tentang Saya</a>
+          </div>
+
+          <p class="hero__status">
+            <span class="hero__status-titik" aria-hidden="true"></span>
+            <span data-field="ketersediaan">Sedang menempuh studi pendidikan &middot; terbuka untuk belajar dan berkolaborasi</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== TENTANG ============================== -->
+    <section class="bagian" id="tentang" aria-labelledby="judul-tentang">
+      <div class="wadah tentang__grid">
+        <div class="tentang__naskah">
+          <header class="bagian__kepala reveal">
+            <p class="bagian__indeks">01 <span aria-hidden="true">&mdash;</span> Tentang Saya</p>
+            <h2 class="bagian__judul" id="judul-tentang">Calon guru yang sedang terus belajar.</h2>
+          </header>
+
+          <div class="tentang__paragraf reveal" data-paragraf-tentang>
+            <!-- Paragraf diisi dari konten.tentang.paragraf di script.js -->
+          </div>
+        </div>
+
+        <aside class="tentang__sisi reveal" aria-label="Ilustrasi dan ringkasan singkat">
+          <figure class="tentang__ilustrasi">
+            <svg viewBox="0 0 520 400" role="img" aria-labelledby="ilustrasi-judul" xmlns="http://www.w3.org/2000/svg">
+              <title id="ilustrasi-judul">Ilustrasi buku terbuka di atas rehal, ditemani tumpukan buku dan pola geometris</title>
+
+              <!-- pola geometris: bintang delapan sederhana -->
+              <g fill="none" stroke="#555D43" stroke-width="1.5" opacity="0.35">
+                <rect x="410" y="44" width="58" height="58" />
+                <rect x="410" y="44" width="58" height="58" transform="rotate(45 439 73)" />
+              </g>
+              <g fill="none" stroke="#A58B67" stroke-width="1.5" opacity="0.7">
+                <rect x="54" y="58" width="38" height="38" />
+                <rect x="54" y="58" width="38" height="38" transform="rotate(45 73 77)" />
+              </g>
+
+              <!-- garis lantai -->
+              <rect x="120" y="352" width="286" height="2" fill="#555D43" opacity="0.35" />
+
+              <!-- rehal -->
+              <g stroke="#555D43" stroke-width="16" stroke-linecap="round">
+                <line x1="196" y1="228" x2="344" y2="336" />
+                <line x1="324" y1="228" x2="176" y2="336" />
+              </g>
+              <rect x="146" y="330" width="70" height="13" rx="6.5" fill="#555D43" />
+              <rect x="304" y="330" width="70" height="13" rx="6.5" fill="#555D43" />
+
+              <!-- tumpukan buku di samping -->
+              <rect x="58" y="316" width="86" height="17" rx="2" fill="#555D43" />
+              <rect x="58" y="323" width="86" height="3" fill="#F3F0E7" opacity="0.55" />
+              <rect x="66" y="297" width="74" height="17" rx="2" fill="#A58B67" />
+              <rect x="66" y="304" width="74" height="3" fill="#F3F0E7" opacity="0.7" />
+
+              <!-- buku terbuka: sampul -->
+              <path d="M144 208 L258 226 L258 256 L144 240 Z" fill="#A58B67" />
+              <path d="M376 208 L262 226 L262 256 L376 240 Z" fill="#A58B67" />
+              <!-- buku terbuka: halaman -->
+              <path d="M154 198 L258 216 L258 246 L154 230 Z" fill="#FFFFFF" />
+              <path d="M366 198 L262 216 L262 246 L366 230 Z" fill="#FFFFFF" />
+              <!-- garis teks pada halaman -->
+              <g stroke="#A58B67" stroke-width="3" stroke-linecap="round">
+                <line x1="174" y1="212" x2="240" y2="223" />
+                <line x1="174" y1="225" x2="240" y2="236" />
+                <line x1="280" y1="223" x2="346" y2="212" />
+                <line x1="280" y1="236" x2="346" y2="225" />
+              </g>
+              <!-- punggung buku di tengah -->
+              <rect x="256" y="214" width="8" height="44" rx="3" fill="#555D43" />
+            </svg>
+          </figure>
+
+          <dl class="tentang__fakta" data-fakta>
+            <!-- Daftar fakta diisi dari script.js -->
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============================== KETERAMPILAN ============================== -->
+    <section class="bagian bagian--batu" id="keterampilan" aria-labelledby="judul-keterampilan">
+      <div class="wadah keterampilan__grid">
+        <header class="bagian__kepala keterampilan__kepala reveal">
+          <p class="bagian__indeks">02 <span aria-hidden="true">&mdash;</span> Keterampilan</p>
+          <h2 class="bagian__judul" id="judul-keterampilan">Tiga alat digital yang saya latih.</h2>
+          <p class="bagian__catatan">
+            Ini kemampuan yang sedang saya kembangkan untuk kebutuhan belajar dan administrasi &mdash; bukan daftar keahlian tingkat profesional.
+          </p>
+        </header>
+
+        <ol class="keterampilan__daftar" data-keterampilan>
+          <!-- Baris keterampilan diisi dari script.js -->
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================== PORTOFOLIO ============================== -->
+    <section class="bagian" id="portofolio" aria-labelledby="judul-portofolio">
+      <div class="wadah">
+        <header class="bagian__kepala reveal">
+          <p class="bagian__indeks">03 <span aria-hidden="true">&mdash;</span> Portofolio</p>
+          <h2 class="bagian__judul" id="judul-portofolio">Karya konsep untuk kebutuhan belajar.</h2>
+          <p class="bagian__catatan">
+            Seluruh karya di bawah adalah <strong>konsep demo</strong> yang saya susun sendiri sebagai latihan. Belum ada yang dikerjakan untuk sekolah atau kelas nyata, dan akan saya ganti dengan karya sungguhan seiring waktu.
+          </p>
+        </header>
+
+        <div class="karya__daftar" data-karya>
+          <!-- Pratinjau karya diisi dari script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== NILAI ============================== -->
+    <section class="bagian bagian--gelap" id="nilai" aria-labelledby="judul-nilai">
+      <div class="wadah">
+        <header class="bagian__kepala reveal">
+          <p class="bagian__indeks">04 <span aria-hidden="true">&mdash;</span> Nilai Pendidikan</p>
+          <h2 class="bagian__judul" id="judul-nilai">Yang ingin saya bawa ke ruang kelas kelak.</h2>
+        </header>
+
+        <div class="nilai__grid">
+          <blockquote class="nilai__kutipan reveal">
+            <p data-kutipan>
+              <!-- Kutipan diisi dari script.js -->
+            </p>
+          </blockquote>
+
+          <ol class="nilai__daftar" data-nilai>
+            <!-- Daftar nilai diisi dari script.js -->
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== PENDIDIKAN ============================== -->
+    <section class="bagian" id="pendidikan" aria-labelledby="judul-pendidikan">
+      <div class="wadah">
+        <header class="bagian__kepala reveal">
+          <p class="bagian__indeks">05 <span aria-hidden="true">&mdash;</span> Pendidikan</p>
+          <h2 class="bagian__judul" id="judul-pendidikan">Perjalanan studi dan pengembangan diri.</h2>
+          <p class="bagian__catatan">
+            Isi bagian ini hanya dengan informasi studi yang benar-benar dapat Anda verifikasi. Kolom yang belum diisi tetap berupa penanda sementara.
+          </p>
+        </header>
+
+        <div class="pendidikan__kolom">
+          <div class="pendidikan__utama reveal">
+            <h3 class="pendidikan__sub">Pendidikan formal</h3>
+            <ol class="pendidikan__daftar" data-pendidikan>
+              <!-- Entri pendidikan diisi dari script.js -->
+            </ol>
+          </div>
+
+          <div class="pendidikan__samping reveal">
+            <h3 class="pendidikan__sub">Sedang dikembangkan</h3>
+            <ul class="pendidikan__pengembangan" data-pengembangan>
+              <!-- Entri pengembangan diisi dari script.js -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== KONTAK ============================== -->
+    <section class="bagian" id="kontak" aria-labelledby="judul-kontak">
+      <div class="wadah kontak__dalam">
+        <header class="bagian__kepala reveal">
+          <p class="bagian__indeks">06 <span aria-hidden="true">&mdash;</span> Kontak</p>
+          <h2 class="bagian__judul bagian__judul--besar" id="judul-kontak">Mari berkenalan dan bertukar pikiran.</h2>
+        </header>
+
+        <p class="kontak__ajakan reveal" data-ajakan>
+          <!-- Ajakan diisi dari script.js -->
+        </p>
+
+        <p class="kontak__surel reveal">
+          <a data-field="surel-tautan" href="mailto:email@anda.com">email@anda.com</a>
+        </p>
+
+        <ul class="kontak__sosial reveal" data-sosial>
+          <!-- Tautan sosial diisi dari script.js -->
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================== KAKI ============================== -->
+  <footer class="kaki">
+    <div class="wadah kaki__dalam">
+      <p class="kaki__nama" data-field="nama"></p>
+      <p class="kaki__catatan">Portofolio pribadi mahasiswa Pendidikan Agama Islam &middot; <span data-tahun></span></p>
+      <a class="kaki__atas" href="#beranda">Kembali ke atas <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
